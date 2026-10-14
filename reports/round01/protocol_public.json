@@ -1,0 +1,127 @@
+{
+  "study": "PHGNN + prototype-guided missing PET, restart round 1",
+  "created_client_date": "2026-10-15",
+  "tasks": [
+    "ad_cn"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "arms": [
+    "baseline_naive",
+    "baseline_observed",
+    "neighbor",
+    "prototype_avg",
+    "prototype_concat",
+    "mlp_concat",
+    "prototype_residual",
+    "prototype_pattern",
+    "prototype_hypergraph",
+    "prototype_sce_nce"
+  ],
+  "expected_runs": 150,
+  "cohort": "<LOCAL_COHORT_PATH>",
+  "cohort_sha256": "2bb693224ba7017ad23ce803f010537df50e59b626fd0c9985edb43a14999d7f",
+  "source_sha256": {
+    "pet_prompt.py": "5596742df3d9d17da0c9d51051e1ef36cdddfa427d9082b2aad9aabe776218e3",
+    "pipeline/bench.py": "e8de2a683ace1d850f00cb34149089839a5ec12631329660a863d734dc0db750",
+    "pipeline/data.py": "dfc5db308704e463b9042ec704eaf536d3631ff91273ca4d3ce265185c351c31",
+    "pipeline/device.py": "79b771b5b9bf80e8c10462677060158bb02ea7f7424829f95285e7dd4dbf7003",
+    "pipeline/hypergraph.py": "be0dfca3ab9d86dc1855ea2a6f722e81e5f908e5cbf6b490ab93d7a52d0ba161",
+    "pipeline/metrics.py": "cb4068f3dcc3b7a52724b45d92a77067b54eb67ae9927e89e2bf0a9af303002b",
+    "pipeline/models.py": "44ce0c010a557e71a306a5bb0f0ccc9becc83557f4b60cc7274d4a892b1c4e84",
+    "run_experiments.py": "1e4084028f6dac552bfe646efedebb40c0ac122adb8ddc4271e659b54c1a3fe2"
+  },
+  "environment": {
+    "device": "cuda",
+    "torch": "2.7.0+cu128",
+    "numpy": "2.3.5",
+    "sklearn": "1.9.1",
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "execution": {
+      "protocol": "stable_cuda_bmm_v1",
+      "sparse_backend": "coo_sparse_bmm",
+      "deterministic_algorithms": true,
+      "cublas_workspace_config": ":4096:8",
+      "matmul_allow_tf32": false,
+      "threads": 2,
+      "source_sha256": {
+        "bench.py": "e8de2a683ace1d850f00cb34149089839a5ec12631329660a863d734dc0db750",
+        "data.py": "dfc5db308704e463b9042ec704eaf536d3631ff91273ca4d3ce265185c351c31",
+        "device.py": "79b771b5b9bf80e8c10462677060158bb02ea7f7424829f95285e7dd4dbf7003",
+        "hypergraph.py": "be0dfca3ab9d86dc1855ea2a6f722e81e5f908e5cbf6b490ab93d7a52d0ba161",
+        "metrics.py": "cb4068f3dcc3b7a52724b45d92a77067b54eb67ae9927e89e2bf0a9af303002b",
+        "models.py": "44ce0c010a557e71a306a5bb0f0ccc9becc83557f4b60cc7274d4a892b1c4e84"
+      }
+    }
+  },
+  "python": "3.12.10",
+  "adapter": {
+    "name": "PHGNN plus independent missing-PET generator controlled ablations",
+    "arms": [
+      "neighbor",
+      "prototype_avg",
+      "prototype_concat",
+      "mlp_concat",
+      "prototype_residual",
+      "prototype_pattern",
+      "prototype_hypergraph",
+      "prototype_sce_nce"
+    ],
+    "embedding_dim": 32,
+    "bank_size": 8,
+    "attention_dim": 32,
+    "neighbor_count": 10,
+    "pattern_embedding_dim": 8,
+    "neighbor_space": "MRI PCA20 fitted on task-training patients only, concatenated with prepared tabular inputs",
+    "generator_fit_and_donor_pool": "task training plus development background; excludes validation, test, held sites and locked patients",
+    "generator_selection": "common SmoothL1 + 0.5*cosine-error on observed validation PET for every arm; no test-label selection",
+    "objective": "SmoothL1(beta=1) + 0.5*(1-cosine), summed over modalities",
+    "alternative_objective": "prototype_sce_nce only: (1-cosine)^2 + 0.1*paired InfoNCE(temperature=0.1)",
+    "mask_probability": 0.5,
+    "max_epochs": 200,
+    "patience": 30,
+    "learning_rate": 0.001,
+    "weight_decay": 0.005,
+    "gradient_clip": 5.0,
+    "attention": "unnormalized projected dot product divided by sqrt(attention_dim)",
+    "graph": "original PHGNN incidence from original zero-filled encoded features fixed across arms",
+    "replacement": "natural-missing PET embeddings only; observed PET and availability flags unchanged",
+    "extra_stage_or_clinical_supervision": false,
+    "postprocessing": false,
+    "hypergraph_peer": "MRI/demo fixed kNN incidence; masked H.T-to-H pooling; empty-provider edges excluded"
+  },
+  "standardization_fit": "current labeled task training fold only",
+  "encoder_pca_fallback_fit": "observed training fold only; never all observed patients",
+  "mae_eligible": "training fold plus unlabeled background; validation/test excluded",
+  "generator_fit_and_donors": "training fold plus unlabeled background; validation/test excluded",
+  "graph_protocol": "transductive: unlabeled validation/test features participate in propagation",
+  "baseline_graph": "naive modality-kNN union, including zero PET rows",
+  "graph_ablation": "baseline_observed: only observed PET nodes create/join PET hyperedges",
+  "module_downstream_graph": "same original naive graph, fixed before imputation",
+  "hypergraph_provider_context": "MRI/tab graph only, no PET-valued edge construction",
+  "selection": "generator epoch by common validation PET reconstruction loss; downstream config/epoch/threshold by validation labels",
+  "across_arm_test_selection": false,
+  "extra_clinical_targets_or_stage_labels": false,
+  "ridge_fusion_score_borrowing": false,
+  "interpretation": "exploratory comparison; this cohort including locked sites was examined in earlier work; no new independent external-validation claim",
+  "future_confirmation": "freeze method before ADNI/site-level evaluation; no publication readiness assumed",
+  "publication_copy": {
+    "derived_from": "local frozen round01_core/protocol.json",
+    "original_sha256": "b23fbe2549867f5665c09e0fdaee928685a88f3fcafb51eb1119f6ad40eb03a0",
+    "changes": [
+      "Replaced the absolute local cohort path with a placeholder."
+    ],
+    "privacy": "No cohort, patient rows, patient labels, predictions, graph or checkpoint data included.",
+    "replay": "This derived document is for reading; it does not replace the frozen local protocol for resume or checkpoint checks."
+  }
+}

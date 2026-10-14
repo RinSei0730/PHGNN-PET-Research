@@ -1,0 +1,1734 @@
+{
+  "scope": "predefined exploratory study; same cohort previously studied",
+  "test_results_used_for_arm_selection": false,
+  "tasks": {
+    "ad_cn": {
+      "baseline_naive": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.934949137834146,
+            "std_population": 0.014057476017758221
+          },
+          "bacc": {
+            "mean": 0.8639506497043263,
+            "std_population": 0.01846624250550792
+          },
+          "sen": {
+            "mean": 0.8526289682539684,
+            "std_population": 0.04653764800938846
+          },
+          "spe": {
+            "mean": 0.8752723311546841,
+            "std_population": 0.02909944724542745
+          },
+          "val_auc": {
+            "mean": 0.94796585300787,
+            "std_population": 0.015990212344586932
+          },
+          "auc_pet": {
+            "mean": 0.9544837277549687,
+            "std_population": 0.015812284048437174
+          },
+          "auc_nopet": {
+            "mean": 0.9225456853082385,
+            "std_population": 0.018883585590045323
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.0,
+            "std_population": 0.0
+          },
+          "bacc": {
+            "mean": 0.0,
+            "std_population": 0.0
+          },
+          "sen": {
+            "mean": 0.0,
+            "std_population": 0.0
+          },
+          "spe": {
+            "mean": 0.0,
+            "std_population": 0.0
+          },
+          "val_auc": {
+            "mean": 0.0,
+            "std_population": 0.0
+          },
+          "auc_pet": {
+            "mean": 0.0,
+            "std_population": 0.0
+          },
+          "auc_nopet": {
+            "mean": 0.0,
+            "std_population": 0.0
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 0,
+          "ties": 15,
+          "losses": 0
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9377274289345369,
+                "std_population": 0.015669643013383187
+              },
+              "bacc": {
+                "mean": 0.8644301470588236,
+                "std_population": 0.02360633128620758
+              },
+              "sen": {
+                "mean": 0.8684027777777779,
+                "std_population": 0.056292850619454306
+              },
+              "spe": {
+                "mean": 0.8604575163398692,
+                "std_population": 0.030509647103225637
+              },
+              "val_auc": {
+                "mean": 0.9578151260504202,
+                "std_population": 0.007085134245020059
+              },
+              "auc_pet": {
+                "mean": 0.9560789987495184,
+                "std_population": 0.016755836999579173
+              },
+              "auc_nopet": {
+                "mean": 0.9260003284350015,
+                "std_population": 0.015026925208350281
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9316949696545285,
+                "std_population": 0.013555812281247701
+              },
+              "bacc": {
+                "mean": 0.86671918767507,
+                "std_population": 0.01110591556989182
+              },
+              "sen": {
+                "mean": 0.8589285714285714,
+                "std_population": 0.03126275250002071
+              },
+              "spe": {
+                "mean": 0.8745098039215685,
+                "std_population": 0.027251845410966525
+              },
+              "val_auc": {
+                "mean": 0.9443857543017206,
+                "std_population": 0.014161379157432631
+              },
+              "auc_pet": {
+                "mean": 0.9516769126500126,
+                "std_population": 0.016374164763668285
+              },
+              "auc_nopet": {
+                "mean": 0.9190874346951731,
+                "std_population": 0.025849232704780987
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9354250149133728,
+                "std_population": 0.012041809092655849
+              },
+              "bacc": {
+                "mean": 0.8607026143790849,
+                "std_population": 0.01799893457109333
+              },
+              "sen": {
+                "mean": 0.8305555555555555,
+                "std_population": 0.03968979348384321
+              },
+              "spe": {
+                "mean": 0.8908496732026144,
+                "std_population": 0.020102688234287194
+              },
+              "val_auc": {
+                "mean": 0.9416966786714684,
+                "std_population": 0.01916217765526001
+              },
+              "auc_pet": {
+                "mean": 0.9556952718653754,
+                "std_population": 0.013759458401777194
+              },
+              "auc_nopet": {
+                "mean": 0.9225492927945416,
+                "std_population": 0.01232412398981825
+              }
+            }
+          }
+        ]
+      },
+      "baseline_observed": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9385520411868452,
+            "std_population": 0.014160166616654663
+          },
+          "bacc": {
+            "mean": 0.866192032368503,
+            "std_population": 0.016134431899385925
+          },
+          "sen": {
+            "mean": 0.8526455026455028,
+            "std_population": 0.04117799173555415
+          },
+          "spe": {
+            "mean": 0.8797385620915033,
+            "std_population": 0.03300923218565345
+          },
+          "val_auc": {
+            "mean": 0.9491076430572228,
+            "std_population": 0.01636653813929589
+          },
+          "auc_pet": {
+            "mean": 0.9575778487508377,
+            "std_population": 0.01597432122773721
+          },
+          "auc_nopet": {
+            "mean": 0.9245478593469193,
+            "std_population": 0.019654574648790037
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.0036029033526990754,
+            "std_population": 0.006816792287225394
+          },
+          "bacc": {
+            "mean": 0.002241382664176787,
+            "std_population": 0.00972179117345978
+          },
+          "sen": {
+            "mean": 1.6534391534395178e-05,
+            "std_population": 0.024259868698096886
+          },
+          "spe": {
+            "mean": 0.004466230936819164,
+            "std_population": 0.025935078298832875
+          },
+          "val_auc": {
+            "mean": 0.0011417900493530567,
+            "std_population": 0.003238870497996561
+          },
+          "auc_pet": {
+            "mean": 0.0030941209958690024,
+            "std_population": 0.004364788580771589
+          },
+          "auc_nopet": {
+            "mean": 0.002002174038680556,
+            "std_population": 0.00921873641326572
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 8,
+          "ties": 0,
+          "losses": 7
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9398268103537711,
+                "std_population": 0.014452861007863492
+              },
+              "bacc": {
+                "mean": 0.8663661297852474,
+                "std_population": 0.02016630524181751
+              },
+              "sen": {
+                "mean": 0.8683531746031747,
+                "std_population": 0.037702132752961665
+              },
+              "spe": {
+                "mean": 0.8643790849673204,
+                "std_population": 0.029682846608798944
+              },
+              "val_auc": {
+                "mean": 0.9609603841536615,
+                "std_population": 0.005555374768015244
+              },
+              "auc_pet": {
+                "mean": 0.9571868662438161,
+                "std_population": 0.016385013069780664
+              },
+              "auc_nopet": {
+                "mean": 0.9286516622273849,
+                "std_population": 0.013998971099984688
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9358768738977072,
+                "std_population": 0.017897229253197276
+              },
+              "bacc": {
+                "mean": 0.8685369981325864,
+                "std_population": 0.015616882581045995
+              },
+              "sen": {
+                "mean": 0.8651785714285714,
+                "std_population": 0.02908988313865163
+              },
+              "spe": {
+                "mean": 0.8718954248366012,
+                "std_population": 0.024380924775940484
+              },
+              "val_auc": {
+                "mean": 0.94359343737495,
+                "std_population": 0.01533929142568639
+              },
+              "auc_pet": {
+                "mean": 0.9554946373308638,
+                "std_population": 0.018121347860639254
+              },
+              "auc_nopet": {
+                "mean": 0.9193162020495128,
+                "std_population": 0.02606901945103469
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9399524393090569,
+                "std_population": 0.00784807481014478
+              },
+              "bacc": {
+                "mean": 0.863672969187675,
+                "std_population": 0.010886594317654586
+              },
+              "sen": {
+                "mean": 0.8244047619047619,
+                "std_population": 0.04022263897286008
+              },
+              "spe": {
+                "mean": 0.9029411764705882,
+                "std_population": 0.030944106049060973
+              },
+              "val_auc": {
+                "mean": 0.9427691076430571,
+                "std_population": 0.018065538872051316
+              },
+              "auc_pet": {
+                "mean": 0.9600520426778336,
+                "std_population": 0.012572614753826575
+              },
+              "auc_nopet": {
+                "mean": 0.9256757137638599,
+                "std_population": 0.015422660442767711
+              }
+            }
+          }
+        ]
+      },
+      "neighbor": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.936458522452191,
+            "std_population": 0.01540953039804523
+          },
+          "bacc": {
+            "mean": 0.8690213585434173,
+            "std_population": 0.013391194382927848
+          },
+          "sen": {
+            "mean": 0.849371693121693,
+            "std_population": 0.04455980173289677
+          },
+          "spe": {
+            "mean": 0.8886710239651416,
+            "std_population": 0.035543712517781635
+          },
+          "val_auc": {
+            "mean": 0.9492250233426704,
+            "std_population": 0.015462928194595828
+          },
+          "auc_pet": {
+            "mean": 0.955423028907952,
+            "std_population": 0.01460267430139701
+          },
+          "auc_nopet": {
+            "mean": 0.9231959028850015,
+            "std_population": 0.020688805815053682
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.0015093846180447364,
+            "std_population": 0.00630828577072844
+          },
+          "bacc": {
+            "mean": 0.005070708839091191,
+            "std_population": 0.008177190774541068
+          },
+          "sen": {
+            "mean": -0.0032572751322751245,
+            "std_population": 0.030003274257809857
+          },
+          "spe": {
+            "mean": 0.013398692810457505,
+            "std_population": 0.02961801322973123
+          },
+          "val_auc": {
+            "mean": 0.001259170334800593,
+            "std_population": 0.0014218445340223964
+          },
+          "auc_pet": {
+            "mean": 0.0009393011529834035,
+            "std_population": 0.005668011092384296
+          },
+          "auc_nopet": {
+            "mean": 0.0006502175767627794,
+            "std_population": 0.004506348847389243
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 11,
+          "ties": 0,
+          "losses": 4
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9404992089428363,
+                "std_population": 0.015148986271507379
+              },
+              "bacc": {
+                "mean": 0.8652456816059757,
+                "std_population": 0.016066474562524753
+              },
+              "sen": {
+                "mean": 0.8556547619047619,
+                "std_population": 0.050338547028032345
+              },
+              "spe": {
+                "mean": 0.8748366013071897,
+                "std_population": 0.04941669235725893
+              },
+              "val_auc": {
+                "mean": 0.9588075230092038,
+                "std_population": 0.007344680444619377
+              },
+              "auc_pet": {
+                "mean": 0.9560751251167916,
+                "std_population": 0.01671838974353459
+              },
+              "auc_nopet": {
+                "mean": 0.929016096458606,
+                "std_population": 0.016791903311369743
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9292448808226993,
+                "std_population": 0.018019730562627623
+              },
+              "bacc": {
+                "mean": 0.8755383403361344,
+                "std_population": 0.008319021768405554
+              },
+              "sen": {
+                "mean": 0.8651289682539682,
+                "std_population": 0.01663105014306595
+              },
+              "spe": {
+                "mean": 0.8859477124183007,
+                "std_population": 0.013490044078791041
+              },
+              "val_auc": {
+                "mean": 0.9464025610244097,
+                "std_population": 0.013221680918362507
+              },
+              "auc_pet": {
+                "mean": 0.9499129800086898,
+                "std_population": 0.013512952804074847
+              },
+              "auc_nopet": {
+                "mean": 0.9181347880308813,
+                "std_population": 0.027495866888756108
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9396314775910364,
+                "std_population": 0.008928997114641773
+              },
+              "bacc": {
+                "mean": 0.866280053688142,
+                "std_population": 0.012099297195313588
+              },
+              "sen": {
+                "mean": 0.8273313492063492,
+                "std_population": 0.04870955976845804
+              },
+              "spe": {
+                "mean": 0.9052287581699346,
+                "std_population": 0.026326972628918716
+              },
+              "val_auc": {
+                "mean": 0.9424649859943978,
+                "std_population": 0.018521894329845478
+              },
+              "auc_pet": {
+                "mean": 0.9602809815983753,
+                "std_population": 0.011100642705534229
+              },
+              "auc_nopet": {
+                "mean": 0.9224368241655168,
+                "std_population": 0.013639047183480671
+              }
+            }
+          }
+        ]
+      },
+      "prototype_avg": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9375772685617457,
+            "std_population": 0.014404448710139656
+          },
+          "bacc": {
+            "mean": 0.8665373093681917,
+            "std_population": 0.017597842622251482
+          },
+          "sen": {
+            "mean": 0.8400462962962963,
+            "std_population": 0.05375562855986199
+          },
+          "spe": {
+            "mean": 0.8930283224400869,
+            "std_population": 0.03434155250272995
+          },
+          "val_auc": {
+            "mean": 0.9491423235961051,
+            "std_population": 0.015845809470964426
+          },
+          "auc_pet": {
+            "mean": 0.9565912073681088,
+            "std_population": 0.015250073331342328
+          },
+          "auc_nopet": {
+            "mean": 0.9234297462465942,
+            "std_population": 0.020030249621843976
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.0026281307275996648,
+            "std_population": 0.0052277302654389415
+          },
+          "bacc": {
+            "mean": 0.0025866596638655388,
+            "std_population": 0.00738939600050813
+          },
+          "sen": {
+            "mean": -0.012582671957671954,
+            "std_population": 0.017410753541110525
+          },
+          "spe": {
+            "mean": 0.017755991285403047,
+            "std_population": 0.0235873369137032
+          },
+          "val_auc": {
+            "mean": 0.0011764705882353122,
+            "std_population": 0.0015974892287022966
+          },
+          "auc_pet": {
+            "mean": 0.0021074796131399657,
+            "std_population": 0.004140566072428696
+          },
+          "auc_nopet": {
+            "mean": 0.0008840609383557426,
+            "std_population": 0.006234580666860839
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 12,
+          "ties": 0,
+          "losses": 3
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9406082224556489,
+                "std_population": 0.015707265435530495
+              },
+              "bacc": {
+                "mean": 0.8635679271708684,
+                "std_population": 0.024005067351939014
+              },
+              "sen": {
+                "mean": 0.8621031746031746,
+                "std_population": 0.05703006221863717
+              },
+              "spe": {
+                "mean": 0.8650326797385622,
+                "std_population": 0.03484034118909181
+              },
+              "val_auc": {
+                "mean": 0.9599199679871949,
+                "std_population": 0.006757688197394337
+              },
+              "auc_pet": {
+                "mean": 0.9570249958642145,
+                "std_population": 0.016890478952902757
+              },
+              "auc_nopet": {
+                "mean": 0.9282630016472867,
+                "std_population": 0.017011353096754025
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9337404521993984,
+                "std_population": 0.01653597548191738
+              },
+              "bacc": {
+                "mean": 0.8721886671335201,
+                "std_population": 0.009705522502908223
+              },
+              "sen": {
+                "mean": 0.8401289682539682,
+                "std_population": 0.04119590685443867
+              },
+              "spe": {
+                "mean": 0.9042483660130719,
+                "std_population": 0.022796313760255274
+              },
+              "val_auc": {
+                "mean": 0.9451380552220889,
+                "std_population": 0.013529742564382288
+              },
+              "auc_pet": {
+                "mean": 0.9525530264146103,
+                "std_population": 0.015586153318494247
+              },
+              "auc_nopet": {
+                "mean": 0.9209682976796717,
+                "std_population": 0.025017649205370723
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9383831310301899,
+                "std_population": 0.008817624379897212
+              },
+              "bacc": {
+                "mean": 0.8638553338001866,
+                "std_population": 0.014514258543725634
+              },
+              "sen": {
+                "mean": 0.8179067460317461,
+                "std_population": 0.05237174492188286
+              },
+              "spe": {
+                "mean": 0.9098039215686274,
+                "std_population": 0.02476770630260968
+              },
+              "val_auc": {
+                "mean": 0.9423689475790317,
+                "std_population": 0.018613928742693044
+              },
+              "auc_pet": {
+                "mean": 0.9601955998255016,
+                "std_population": 0.0118317806119127
+              },
+              "auc_nopet": {
+                "mean": 0.9210579394128249,
+                "std_population": 0.015916005759048685
+              }
+            }
+          }
+        ]
+      },
+      "prototype_concat": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9381913374917871,
+            "std_population": 0.014506108890857542
+          },
+          "bacc": {
+            "mean": 0.867144705104264,
+            "std_population": 0.018732974915842627
+          },
+          "sen": {
+            "mean": 0.8400628306878308,
+            "std_population": 0.053947404652595426
+          },
+          "spe": {
+            "mean": 0.8942265795206972,
+            "std_population": 0.036519841385140625
+          },
+          "val_auc": {
+            "mean": 0.9490436174469787,
+            "std_population": 0.01570142835656593
+          },
+          "auc_pet": {
+            "mean": 0.9563176562389051,
+            "std_population": 0.015262032810170467
+          },
+          "auc_nopet": {
+            "mean": 0.9245620852289069,
+            "std_population": 0.019331945816535297
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.0032421996576408392,
+            "std_population": 0.004249610312330382
+          },
+          "bacc": {
+            "mean": 0.003194055399937749,
+            "std_population": 0.007546594578498274
+          },
+          "sen": {
+            "mean": -0.012566137566137559,
+            "std_population": 0.02076425991531872
+          },
+          "spe": {
+            "mean": 0.018954248366013064,
+            "std_population": 0.027092009161897274
+          },
+          "val_auc": {
+            "mean": 0.0010777644391089783,
+            "std_population": 0.0014052754459004694
+          },
+          "auc_pet": {
+            "mean": 0.0018339284839363238,
+            "std_population": 0.003968044394944217
+          },
+          "auc_nopet": {
+            "mean": 0.0020163999206682438,
+            "std_population": 0.005074404821338381
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 13,
+          "ties": 0,
+          "losses": 2
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.941269354964208,
+                "std_population": 0.01512745090742807
+              },
+              "bacc": {
+                "mean": 0.8661108193277312,
+                "std_population": 0.023978732428505567
+              },
+              "sen": {
+                "mean": 0.8652281746031747,
+                "std_population": 0.055489881108106424
+              },
+              "spe": {
+                "mean": 0.8669934640522877,
+                "std_population": 0.03866166384619675
+              },
+              "val_auc": {
+                "mean": 0.9591916766706682,
+                "std_population": 0.007392047155297347
+              },
+              "auc_pet": {
+                "mean": 0.9561999337145126,
+                "std_population": 0.01734116515267496
+              },
+              "auc_nopet": {
+                "mean": 0.929716403003337,
+                "std_population": 0.015298665042893757
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9348103245928001,
+                "std_population": 0.016863722684975636
+              },
+              "bacc": {
+                "mean": 0.872280578898226,
+                "std_population": 0.010729731670138203
+              },
+              "sen": {
+                "mean": 0.8432539682539681,
+                "std_population": 0.04529641751808067
+              },
+              "spe": {
+                "mean": 0.9013071895424837,
+                "std_population": 0.024772017853917933
+              },
+              "val_auc": {
+                "mean": 0.9451860744297719,
+                "std_population": 0.014147396334118045
+              },
+              "auc_pet": {
+                "mean": 0.9530771693670198,
+                "std_population": 0.015396436742682571
+              },
+              "auc_nopet": {
+                "mean": 0.9220282625352766,
+                "std_population": 0.025520634874239962
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9384943329183525,
+                "std_population": 0.009851874222485601
+              },
+              "bacc": {
+                "mean": 0.8630427170868347,
+                "std_population": 0.017843594701746072
+              },
+              "sen": {
+                "mean": 0.8117063492063492,
+                "std_population": 0.046395119630575354
+              },
+              "spe": {
+                "mean": 0.9143790849673203,
+                "std_population": 0.026359405006635025
+              },
+              "val_auc": {
+                "mean": 0.9427531012404963,
+                "std_population": 0.01809361862224444
+              },
+              "auc_pet": {
+                "mean": 0.9596758656351831,
+                "std_population": 0.011799596567829158
+              },
+              "auc_nopet": {
+                "mean": 0.9219415901481071,
+                "std_population": 0.013998792342569386
+              }
+            }
+          }
+        ]
+      },
+      "mlp_concat": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9374989463377943,
+            "std_population": 0.015410196823310034
+          },
+          "bacc": {
+            "mean": 0.8695519179894179,
+            "std_population": 0.01338535912116259
+          },
+          "sen": {
+            "mean": 0.8483630952380952,
+            "std_population": 0.04818702688185664
+          },
+          "spe": {
+            "mean": 0.8907407407407408,
+            "std_population": 0.03646814140257732
+          },
+          "val_auc": {
+            "mean": 0.949299719887955,
+            "std_population": 0.015325660283013914
+          },
+          "auc_pet": {
+            "mean": 0.9574515113903345,
+            "std_population": 0.015173324213576285
+          },
+          "auc_nopet": {
+            "mean": 0.9222639993103443,
+            "std_population": 0.02110125193108855
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.002549808503648358,
+            "std_population": 0.0060722314895305315
+          },
+          "bacc": {
+            "mean": 0.005601268285091806,
+            "std_population": 0.009551142004570967
+          },
+          "sen": {
+            "mean": -0.0042658730158730155,
+            "std_population": 0.031175401218179532
+          },
+          "spe": {
+            "mean": 0.015468409586056634,
+            "std_population": 0.026581752826020832
+          },
+          "val_auc": {
+            "mean": 0.0013338668800853806,
+            "std_population": 0.0016567893883125823
+          },
+          "auc_pet": {
+            "mean": 0.002967783635365658,
+            "std_population": 0.005494761163686864
+          },
+          "auc_nopet": {
+            "mean": -0.0002816859978942802,
+            "std_population": 0.005891340881522169
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 11,
+          "ties": 0,
+          "losses": 4
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9408742316370994,
+                "std_population": 0.014733653860354834
+              },
+              "bacc": {
+                "mean": 0.8684421685340803,
+                "std_population": 0.015522582385445084
+              },
+              "sen": {
+                "mean": 0.8587797619047619,
+                "std_population": 0.06295610220612981
+              },
+              "spe": {
+                "mean": 0.8781045751633988,
+                "std_population": 0.05165673363443669
+              },
+              "val_auc": {
+                "mean": 0.9588715486194477,
+                "std_population": 0.007649126351793105
+              },
+              "auc_pet": {
+                "mean": 0.9582466789305109,
+                "std_population": 0.016217906030890513
+              },
+              "auc_nopet": {
+                "mean": 0.9279442220325602,
+                "std_population": 0.015411239737425282
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9323308142701524,
+                "std_population": 0.019349010407202827
+              },
+              "bacc": {
+                "mean": 0.8706918183940242,
+                "std_population": 0.01431839243668738
+              },
+              "sen": {
+                "mean": 0.8495535714285714,
+                "std_population": 0.03049469885346083
+              },
+              "spe": {
+                "mean": 0.891830065359477,
+                "std_population": 0.01800057431885019
+              },
+              "val_auc": {
+                "mean": 0.9463545418167266,
+                "std_population": 0.01334308156965875
+              },
+              "auc_pet": {
+                "mean": 0.9526347721826172,
+                "std_population": 0.01625178239475778
+              },
+              "auc_nopet": {
+                "mean": 0.9184505122226045,
+                "std_population": 0.028113541350669544
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9392917931061312,
+                "std_population": 0.008924197394143822
+              },
+              "bacc": {
+                "mean": 0.8695217670401494,
+                "std_population": 0.009434233655033649
+              },
+              "sen": {
+                "mean": 0.8367559523809524,
+                "std_population": 0.04275419596572643
+              },
+              "spe": {
+                "mean": 0.9022875816993464,
+                "std_population": 0.026516944804053318
+              },
+              "val_auc": {
+                "mean": 0.942673069227691,
+                "std_population": 0.017996503868844563
+              },
+              "auc_pet": {
+                "mean": 0.9614730830578754,
+                "std_population": 0.011114948913435004
+              },
+              "auc_nopet": {
+                "mean": 0.9203972636758684,
+                "std_population": 0.016050503599147475
+              }
+            }
+          }
+        ]
+      },
+      "prototype_residual": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9372886731853236,
+            "std_population": 0.015110297663075723
+          },
+          "bacc": {
+            "mean": 0.8672487745098039,
+            "std_population": 0.015404381497921407
+          },
+          "sen": {
+            "mean": 0.8494212962962961,
+            "std_population": 0.05238080102424555
+          },
+          "spe": {
+            "mean": 0.8850762527233115,
+            "std_population": 0.04725459560293671
+          },
+          "val_auc": {
+            "mean": 0.9491503267973855,
+            "std_population": 0.015301201810644944
+          },
+          "auc_pet": {
+            "mean": 0.9567604196114549,
+            "std_population": 0.015130444792041162
+          },
+          "auc_nopet": {
+            "mean": 0.9222258896832017,
+            "std_population": 0.021010555677729
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.0023395353511775165,
+            "std_population": 0.0055333591043460915
+          },
+          "bacc": {
+            "mean": 0.0032981248054777387,
+            "std_population": 0.008840835737653471
+          },
+          "sen": {
+            "mean": -0.003207671957671961,
+            "std_population": 0.038041190279804786
+          },
+          "spe": {
+            "mean": 0.009803921568627439,
+            "std_population": 0.03403507566629636
+          },
+          "val_auc": {
+            "mean": 0.001184473789515798,
+            "std_population": 0.001874173629299964
+          },
+          "auc_pet": {
+            "mean": 0.0022766918564861203,
+            "std_population": 0.004760723338673585
+          },
+          "auc_nopet": {
+            "mean": -0.0003197956250369153,
+            "std_population": 0.005643438387383754
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 11,
+          "ties": 0,
+          "losses": 4
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9406454248366012,
+                "std_population": 0.014658070439042312
+              },
+              "bacc": {
+                "mean": 0.8658934407096173,
+                "std_population": 0.021002897558791284
+              },
+              "sen": {
+                "mean": 0.871329365079365,
+                "std_population": 0.06980796999929179
+              },
+              "spe": {
+                "mean": 0.8604575163398692,
+                "std_population": 0.0685698482188325
+              },
+              "val_auc": {
+                "mean": 0.9585274109643859,
+                "std_population": 0.007693095703798996
+              },
+              "auc_pet": {
+                "mean": 0.957527342801544,
+                "std_population": 0.01651132461285119
+              },
+              "auc_nopet": {
+                "mean": 0.927520988534417,
+                "std_population": 0.01648740844768875
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9324179440294635,
+                "std_population": 0.018977086477712412
+              },
+              "bacc": {
+                "mean": 0.8680570144724555,
+                "std_population": 0.011645119476544438
+              },
+              "sen": {
+                "mean": 0.8433035714285714,
+                "std_population": 0.02771455034851563
+              },
+              "spe": {
+                "mean": 0.8928104575163399,
+                "std_population": 0.01770747344332556
+              },
+              "val_auc": {
+                "mean": 0.9463785514205683,
+                "std_population": 0.013259374822622164
+              },
+              "auc_pet": {
+                "mean": 0.952293157126,
+                "std_population": 0.01589760316437585
+              },
+              "auc_nopet": {
+                "mean": 0.918823610067629,
+                "std_population": 0.02776452125153956
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9388026506899056,
+                "std_population": 0.008525874393824571
+              },
+              "bacc": {
+                "mean": 0.867795868347339,
+                "std_population": 0.011504994623997436
+              },
+              "sen": {
+                "mean": 0.8336309523809524,
+                "std_population": 0.042699777224907046
+              },
+              "spe": {
+                "mean": 0.9019607843137255,
+                "std_population": 0.027067031687383857
+              },
+              "val_auc": {
+                "mean": 0.9425450180072028,
+                "std_population": 0.018114718819994227
+              },
+              "auc_pet": {
+                "mean": 0.9604607589068209,
+                "std_population": 0.011278135297016958
+              },
+              "auc_nopet": {
+                "mean": 0.9203330704475592,
+                "std_population": 0.015441202314821201
+              }
+            }
+          }
+        ]
+      },
+      "prototype_pattern": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9373157441989142,
+            "std_population": 0.014647920912785167
+          },
+          "bacc": {
+            "mean": 0.8660626750700279,
+            "std_population": 0.01767907834524291
+          },
+          "sen": {
+            "mean": 0.8389880952380953,
+            "std_population": 0.05296318430200752
+          },
+          "spe": {
+            "mean": 0.8931372549019608,
+            "std_population": 0.034273760313800056
+          },
+          "val_auc": {
+            "mean": 0.9490142723756169,
+            "std_population": 0.015569801574803593
+          },
+          "auc_pet": {
+            "mean": 0.9562405587717673,
+            "std_population": 0.015141493610064357
+          },
+          "auc_nopet": {
+            "mean": 0.923174196006071,
+            "std_population": 0.020912268768746838
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.002366606364768109,
+            "std_population": 0.0056711443864944505
+          },
+          "bacc": {
+            "mean": 0.002112025365701831,
+            "std_population": 0.006583207318623318
+          },
+          "sen": {
+            "mean": -0.013640873015873016,
+            "std_population": 0.02282734286791845
+          },
+          "spe": {
+            "mean": 0.017864923747276683,
+            "std_population": 0.028121458845783848
+          },
+          "val_auc": {
+            "mean": 0.0010484193677471035,
+            "std_population": 0.0013908234499962547
+          },
+          "auc_pet": {
+            "mean": 0.001756831016798562,
+            "std_population": 0.005095280146625375
+          },
+          "auc_nopet": {
+            "mean": 0.0006285106978322593,
+            "std_population": 0.006029917292439729
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 10,
+          "ties": 0,
+          "losses": 5
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9406441280215792,
+                "std_population": 0.015154880686458892
+              },
+              "bacc": {
+                "mean": 0.864875116713352,
+                "std_population": 0.022773525048415177
+              },
+              "sen": {
+                "mean": 0.8621031746031746,
+                "std_population": 0.049710944435422136
+              },
+              "spe": {
+                "mean": 0.8676470588235295,
+                "std_population": 0.032285200092100584
+              },
+              "val_auc": {
+                "mean": 0.9591276510604242,
+                "std_population": 0.007284258634165289
+              },
+              "auc_pet": {
+                "mean": 0.95693408244967,
+                "std_population": 0.017000245232461107
+              },
+              "auc_nopet": {
+                "mean": 0.9276598649589969,
+                "std_population": 0.016032671471414538
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9320693439412802,
+                "std_population": 0.01706889824538486
+              },
+              "bacc": {
+                "mean": 0.8694779995331465,
+                "std_population": 0.010579426209036237
+              },
+              "sen": {
+                "mean": 0.843204365079365,
+                "std_population": 0.04440007839110542
+              },
+              "spe": {
+                "mean": 0.8957516339869281,
+                "std_population": 0.023912102130623156
+              },
+              "val_auc": {
+                "mean": 0.9453861544617848,
+                "std_population": 0.01372894070541875
+              },
+              "auc_pet": {
+                "mean": 0.9510439765893859,
+                "std_population": 0.014315584784900305
+              },
+              "auc_nopet": {
+                "mean": 0.9206579839739643,
+                "std_population": 0.02785221275405949
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9392337606338831,
+                "std_population": 0.008965791860757747
+              },
+              "bacc": {
+                "mean": 0.8638349089635854,
+                "std_population": 0.01700158973462695
+              },
+              "sen": {
+                "mean": 0.8116567460317461,
+                "std_population": 0.05170749695701377
+              },
+              "spe": {
+                "mean": 0.9160130718954249,
+                "std_population": 0.02701964262561356
+              },
+              "val_auc": {
+                "mean": 0.9425290116046419,
+                "std_population": 0.01811655737736677
+              },
+              "auc_pet": {
+                "mean": 0.9607436172762462,
+                "std_population": 0.012086653927723644
+              },
+              "auc_nopet": {
+                "mean": 0.9212047390852517,
+                "std_population": 0.015774832355764833
+              }
+            }
+          }
+        ]
+      },
+      "prototype_hypergraph": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9377059774527096,
+            "std_population": 0.013965907872012727
+          },
+          "bacc": {
+            "mean": 0.866749824929972,
+            "std_population": 0.018016083223060617
+          },
+          "sen": {
+            "mean": 0.8358961640211642,
+            "std_population": 0.04805048938396312
+          },
+          "spe": {
+            "mean": 0.8976034858387801,
+            "std_population": 0.034675788081130476
+          },
+          "val_auc": {
+            "mean": 0.9491850073362679,
+            "std_population": 0.015739212289566373
+          },
+          "auc_pet": {
+            "mean": 0.9563248181938572,
+            "std_population": 0.01450378473352099
+          },
+          "auc_nopet": {
+            "mean": 0.9236356826610351,
+            "std_population": 0.019949239103563422
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.002756839618563463,
+            "std_population": 0.004844896350896776
+          },
+          "bacc": {
+            "mean": 0.0027991752256458185,
+            "std_population": 0.00848907521881593
+          },
+          "sen": {
+            "mean": -0.016732804232804224,
+            "std_population": 0.02016759320466015
+          },
+          "spe": {
+            "mean": 0.022331154684095862,
+            "std_population": 0.027643959783114423
+          },
+          "val_auc": {
+            "mean": 0.0012191543283980163,
+            "std_population": 0.0015087585204921618
+          },
+          "auc_pet": {
+            "mean": 0.001841090438888456,
+            "std_population": 0.003756973917364503
+          },
+          "auc_nopet": {
+            "mean": 0.001089997352796616,
+            "std_population": 0.005519581119736662
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 11,
+          "ties": 0,
+          "losses": 4
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9408698548863988,
+                "std_population": 0.014846203540813977
+              },
+              "bacc": {
+                "mean": 0.8643644957983192,
+                "std_population": 0.025448134264310016
+              },
+              "sen": {
+                "mean": 0.8558531746031747,
+                "std_population": 0.04555867293064307
+              },
+              "spe": {
+                "mean": 0.8728758169934642,
+                "std_population": 0.03491383118009628
+              },
+              "val_auc": {
+                "mean": 0.9593037214885953,
+                "std_population": 0.007353021480262614
+              },
+              "auc_pet": {
+                "mean": 0.9571779204757451,
+                "std_population": 0.016568709861747976
+              },
+              "auc_nopet": {
+                "mean": 0.9276658582216433,
+                "std_population": 0.016390632711908267
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9334164915966386,
+                "std_population": 0.016076176236780367
+              },
+              "bacc": {
+                "mean": 0.8710448762838467,
+                "std_population": 0.009498393181779422
+              },
+              "sen": {
+                "mean": 0.8401289682539682,
+                "std_population": 0.04119590685443867
+              },
+              "spe": {
+                "mean": 0.9019607843137255,
+                "std_population": 0.023947805177204247
+              },
+              "val_auc": {
+                "mean": 0.9454261704681872,
+                "std_population": 0.014254180046919028
+              },
+              "auc_pet": {
+                "mean": 0.9525846816345975,
+                "std_population": 0.014050686892278856
+              },
+              "auc_nopet": {
+                "mean": 0.9208552496070747,
+                "std_population": 0.02646039670312002
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9388315858750907,
+                "std_population": 0.00875269915237379
+              },
+              "bacc": {
+                "mean": 0.8648401027077497,
+                "std_population": 0.014426588417430258
+              },
+              "sen": {
+                "mean": 0.8117063492063492,
+                "std_population": 0.046395119630575354
+              },
+              "spe": {
+                "mean": 0.9179738562091504,
+                "std_population": 0.027737379312317588
+              },
+              "val_auc": {
+                "mean": 0.9428251300520207,
+                "std_population": 0.01813710470336668
+              },
+              "auc_pet": {
+                "mean": 0.9592118524712291,
+                "std_population": 0.011665504457901248
+              },
+              "auc_nopet": {
+                "mean": 0.922385940154388,
+                "std_population": 0.014127137314419728
+              }
+            }
+          }
+        ]
+      },
+      "prototype_sce_nce": {
+        "completed_splits": 15,
+        "metrics": {
+          "auc": {
+            "mean": 0.9372833238233567,
+            "std_population": 0.013573739050227913
+          },
+          "bacc": {
+            "mean": 0.8664565826330531,
+            "std_population": 0.020097459460125117
+          },
+          "sen": {
+            "mean": 0.8494708994708996,
+            "std_population": 0.04968482587494518
+          },
+          "spe": {
+            "mean": 0.8834422657952069,
+            "std_population": 0.029099447245427457
+          },
+          "val_auc": {
+            "mean": 0.9482486327864479,
+            "std_population": 0.01592814312961438
+          },
+          "auc_pet": {
+            "mean": 0.956284290531025,
+            "std_population": 0.015631888348285314
+          },
+          "auc_nopet": {
+            "mean": 0.9236920519035545,
+            "std_population": 0.016747836996319647
+          }
+        },
+        "paired_delta_vs_baseline_naive": {
+          "auc": {
+            "mean": 0.002334185989210476,
+            "std_population": 0.002730788632999372
+          },
+          "bacc": {
+            "mean": 0.0025059329287270282,
+            "std_population": 0.009136520664422044
+          },
+          "sen": {
+            "mean": -0.003158068783068783,
+            "std_population": 0.01994916650594894
+          },
+          "spe": {
+            "mean": 0.008169934640522862,
+            "std_population": 0.017261585158489225
+          },
+          "val_auc": {
+            "mean": 0.0002827797785780832,
+            "std_population": 0.0007747642655981183
+          },
+          "auc_pet": {
+            "mean": 0.0018005627760562914,
+            "std_population": 0.0032553379992500426
+          },
+          "auc_nopet": {
+            "mean": 0.0011463665953158693,
+            "std_population": 0.004046177860083866
+          }
+        },
+        "auc_wins_ties_losses": {
+          "wins": 10,
+          "ties": 0,
+          "losses": 5
+        },
+        "per_seed": [
+          {
+            "seed": 11,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9397602675329392,
+                "std_population": 0.014639368391660848
+              },
+              "bacc": {
+                "mean": 0.864783204948646,
+                "std_population": 0.02588831641250215
+              },
+              "sen": {
+                "mean": 0.8589781746031747,
+                "std_population": 0.06082077431216631
+              },
+              "spe": {
+                "mean": 0.8705882352941178,
+                "std_population": 0.04062552884476546
+              },
+              "val_auc": {
+                "mean": 0.9581432573029212,
+                "std_population": 0.00770841658460697
+              },
+              "auc_pet": {
+                "mean": 0.9567334988838418,
+                "std_population": 0.016727625896665984
+              },
+              "auc_nopet": {
+                "mean": 0.9281125174423955,
+                "std_population": 0.01293987882090868
+              }
+            }
+          },
+          {
+            "seed": 22,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9342911933291834,
+                "std_population": 0.014395016019782516
+              },
+              "bacc": {
+                "mean": 0.873765756302521,
+                "std_population": 0.011457463782894585
+              },
+              "sen": {
+                "mean": 0.8651785714285714,
+                "std_population": 0.03784387402236204
+              },
+              "spe": {
+                "mean": 0.8823529411764707,
+                "std_population": 0.019635057367058572
+              },
+              "val_auc": {
+                "mean": 0.9444577831132452,
+                "std_population": 0.014159673902056906
+              },
+              "auc_pet": {
+                "mean": 0.9535343324421414,
+                "std_population": 0.016706976427317086
+              },
+              "auc_nopet": {
+                "mean": 0.9206519995646213,
+                "std_population": 0.02216164960497823
+              }
+            }
+          },
+          {
+            "seed": 33,
+            "splits": 5,
+            "metrics": {
+              "auc": {
+                "mean": 0.9377985106079467,
+                "std_population": 0.010763738655173442
+              },
+              "bacc": {
+                "mean": 0.8608207866479924,
+                "std_population": 0.017951568685037216
+              },
+              "sen": {
+                "mean": 0.8242559523809524,
+                "std_population": 0.036076413100522446
+              },
+              "spe": {
+                "mean": 0.8973856209150327,
+                "std_population": 0.011980590052172113
+              },
+              "val_auc": {
+                "mean": 0.9421448579431771,
+                "std_population": 0.01875289248393039
+              },
+              "auc_pet": {
+                "mean": 0.9585850402670921,
+                "std_population": 0.012691483898077683
+              },
+              "auc_nopet": {
+                "mean": 0.9223116387036466,
+                "std_population": 0.01233705721175965
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "completed_runs": 150,
+  "expected_runs": 150,
+  "complete": true,
+  "clinical_supervision": false,
+  "disease_stage_pretraining": false,
+  "ridge_or_score_postprocessing": false
+}

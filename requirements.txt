@@ -1,0 +1,7 @@
+# Core package versions observed in the completed round; Python 3.12.10.
+# Install a suitable PyTorch 2.7.0 CPU/CUDA wheel for the target machine.
+# The original GPU run used torch 2.7.0+cu128; this file does not choose the wheel index.
+numpy==2.3.5
+scipy==1.15.3
+scikit-learn==1.9.1
+torch==2.7.0

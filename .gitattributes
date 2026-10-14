@@ -1,0 +1,2 @@
+# Preserve exact bytes so published sources match the frozen experiment hashes.
+* -text

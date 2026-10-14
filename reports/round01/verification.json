@@ -1,0 +1,160 @@
+{
+  "all_passed": true,
+  "completed_runs": 150,
+  "expected_runs": 150,
+  "input_cohort_unchanged": true,
+  "experiment_source_unchanged": true,
+  "coverage": {
+    "ad_cn/baseline_naive/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/baseline_naive/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/baseline_naive/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/baseline_observed/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/baseline_observed/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/baseline_observed/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/neighbor/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/neighbor/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/neighbor/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_avg/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_avg/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_avg/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_concat/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_concat/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_concat/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/mlp_concat/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/mlp_concat/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/mlp_concat/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_residual/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_residual/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_residual/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_pattern/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_pattern/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_pattern/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_hypergraph/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_hypergraph/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_hypergraph/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_sce_nce/seed11": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_sce_nce/seed22": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    },
+    "ad_cn/prototype_sce_nce/seed33": {
+      "splits": 5,
+      "unique_test_patients": 3379,
+      "each_patient_tested_once": true
+    }
+  },
+  "elapsed_seconds": 1973.09
+}

@@ -1,0 +1,7 @@
+{
+  "task": "ad_cn",
+  "seed": 11,
+  "fold": 0,
+  "passed": true,
+  "max_probability_error": 0.0
+}

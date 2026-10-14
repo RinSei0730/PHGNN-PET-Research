@@ -1,0 +1,68 @@
+{
+  "created_client_date": "2026-10-15",
+  "derived_from": "local origin_manifest.json",
+  "original_sha256": "1024743cd38263ebc0f042387f967d608bbdc5dc351f7eac39d6eadbcc31c96f",
+  "historical_source": "Prior local NACC ROI-feature PHGNN adaptation; no historical workspace paths included.",
+  "upstream_method": {
+    "repository": "https://github.com/theguardsgod/PHGNN",
+    "historical_reference_commit": "de4469007d2b388b185177da82061ed312e878db"
+  },
+  "preserved_original_file_hashes": [
+    {
+      "file_name": "cohort.npz",
+      "sha256": "2bb693224ba7017ad23ce803f010537df50e59b626fd0c9985edb43a14999d7f"
+    },
+    {
+      "file_name": "phgnn@enc.json",
+      "sha256": "6e81d256d6461e77b1883ec315ed2e2de5369a9689c18147d364241f57fccf42"
+    },
+    {
+      "file_name": "bench.py",
+      "sha256": "3cbadcfe499079dd5cdfd58dfad6e913d70e9073b980dab57341337e1b1e8eb0"
+    },
+    {
+      "file_name": "data.py",
+      "sha256": "7efac5782c1e84fe034b156c14641049d3f0d38fa34c2332c620787520513701"
+    },
+    {
+      "file_name": "device.py",
+      "sha256": "79b771b5b9bf80e8c10462677060158bb02ea7f7424829f95285e7dd4dbf7003"
+    },
+    {
+      "file_name": "models.py",
+      "sha256": "1ed9faa7d0a90987a3609cc8cd368fa7ad2a40e8f08d9662a43a965702879d85"
+    },
+    {
+      "file_name": "hypergraph.py",
+      "sha256": "be0dfca3ab9d86dc1855ea2a6f722e81e5f908e5cbf6b490ab93d7a52d0ba161"
+    },
+    {
+      "file_name": "metrics.py",
+      "sha256": "cb4068f3dcc3b7a52724b45d92a77067b54eb67ae9927e89e2bf0a9af303002b"
+    },
+    {
+      "file_name": "proto.py",
+      "sha256": "680f915c9c12dfae55a36a447720e9f1cba04a8a9cfd4c8b745716fffc93e397"
+    },
+    {
+      "file_name": "ours.py",
+      "sha256": "b43826cb494a75331c548aa80e33a6e157b1fd93d8962faa202655816408b030"
+    },
+    {
+      "file_name": "final_config.ps1",
+      "sha256": "6baaa0456b5351ef469bbba7cc714e385a679dd20d0af489263770cf5883b640"
+    }
+  ],
+  "frozen_round_source_sha256": {
+    "pet_prompt.py": "5596742df3d9d17da0c9d51051e1ef36cdddfa427d9082b2aad9aabe776218e3",
+    "pipeline/bench.py": "e8de2a683ace1d850f00cb34149089839a5ec12631329660a863d734dc0db750",
+    "pipeline/data.py": "dfc5db308704e463b9042ec704eaf536d3631ff91273ca4d3ce265185c351c31",
+    "pipeline/device.py": "79b771b5b9bf80e8c10462677060158bb02ea7f7424829f95285e7dd4dbf7003",
+    "pipeline/hypergraph.py": "be0dfca3ab9d86dc1855ea2a6f722e81e5f908e5cbf6b490ab93d7a52d0ba161",
+    "pipeline/metrics.py": "cb4068f3dcc3b7a52724b45d92a77067b54eb67ae9927e89e2bf0a9af303002b",
+    "pipeline/models.py": "44ce0c010a557e71a306a5bb0f0ccc9becc83557f4b60cc7274d4a892b1c4e84",
+    "run_experiments.py": "1e4084028f6dac552bfe646efedebb40c0ac122adb8ddc4271e659b54c1a3fe2"
+  },
+  "privacy": "Names and hashes only. Absolute local paths, source medical data and patient-level artifacts are excluded.",
+  "scope": "Frozen src files are copied byte for byte; publication documentation and launcher are new."
+}
